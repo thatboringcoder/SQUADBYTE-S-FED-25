@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #ff6f61;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+section {
+  padding: 1rem;
+}
+
+#brands .brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  list-style: none;
+  padding: 0;
+}
+
+#moms-maternity {
+  background: #f7f7f7;
+}
+
+#moms-maternity .maternity-content {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+#parenting {
+  background: #eef5ff;
+}
+
+#parenting .vlog {
+  margin-bottom: 1rem;
+}
+
+#early-delivery {
+  background: #fff8e1;
+  border: 2px dashed #ff6f61;
+  text-align: center;
+  margin-top: 1rem;
+}
