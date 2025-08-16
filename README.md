@@ -10,7 +10,7 @@ This repository contains a prototype homepage for the FirstCry website, built as
 
 * **Featured Parenting Blogs** – Instead of burying the FirstCry Parenting content, the prototype features a **Top Blogs** section with embedded videos.  Surfacing engaging parenting content encourages learning and deepens user engagement.
 
-* **Early Delivery Call‑out** – To improve conversion and customer satisfaction, a promotional block advertises an **early delivery option** on selected products.  By explicitly calling out faster shipping, customers know they can get essentials in a hurry.
+* **Priority Delivery Call‑out** – To improve conversion and customer satisfaction, a promotional block advertises an **priority delivery option** on selected products.  By explicitly calling out faster shipping, customers know they can get essentials in a hurry.
 
 ## Running the Prototype
 
