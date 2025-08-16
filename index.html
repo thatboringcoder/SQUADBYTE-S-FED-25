@@ -6,12 +6,16 @@
   <title>FirstCry UI Improvements Prototype</title>
   <!-- Link to the external stylesheet -->
   <link rel="stylesheet" href="styles.css" />
-  <!-- Import a clean, modern font -->
+  <!-- Import Poppins font and Font Awesome icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
     rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
   />
 </head>
 <body>
@@ -54,28 +58,22 @@
 
   <!-- Featured parenting blogs to encourage exploration -->
   <section id="blogs" class="section blogs-section">
-    <h2>Featured Parenting Blogs</h2>
+    <h2>Parenting Blogs</h2>
     <p>
-      Discover curated articles and tips from our Parenting blog.
+      Explore our latest blog posts for tips, nutrition and naming inspiration.
     </p>
-    <div class="blogs-grid">
-      <!-- Blog 1 -->
-      <a href="https://parenting.firstcry.com/articles/7-parenting-tips-for-raising-generation-beta-kids/" class="blog-card" target="_blank">
-        <img src="https://images.pexels.com/photos/4245925/pexels-photo-4245925.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Parents and children playing together" />
-        <h3>7 Parenting Tips for Raising Generation&nbsp;Beta Kids</h3>
-        <p>Insights on raising the next generation with confidence.</p>
+    <div class="blogs-preview">
+      <a href="blogs.html#gen-beta" class="blog-preview-card">
+        <div class="icon-label"><i class="fa-solid fa-children"></i><span>Generation&nbsp;Beta Tips</span></div>
+        <i class="fa-solid fa-chevron-right arrow-icon"></i>
       </a>
-      <!-- Blog 2 -->
-      <a href="https://parenting.firstcry.com/articles/nutritious-snacks-you-must-keep-in-your-office-drawers/" class="blog-card" target="_blank">
-        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Healthy snack bars and nuts" />
-        <h3>Nutritious Snacks You Must Keep in Your Office Drawers</h3>
-        <p>Healthy snack ideas to keep you energized throughout the day.</p>
+      <a href="blogs.html#snacks" class="blog-preview-card">
+        <div class="icon-label"><i class="fa-solid fa-apple-alt"></i><span>Healthy Snacks</span></div>
+        <i class="fa-solid fa-chevron-right arrow-icon"></i>
       </a>
-      <!-- Blog 3 -->
-      <a href="https://parenting.firstcry.com/articles/cute-unique-indian-baby-boy-names/" class="blog-card" target="_blank">
-        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Sleeping newborn baby" />
-        <h3>200 Cute &amp; Unique Indian Baby Boy Names</h3>
-        <p>Explore adorable names with meaningful origins.</p>
+      <a href="blogs.html#names" class="blog-preview-card">
+        <div class="icon-label"><i class="fa-solid fa-baby"></i><span>Baby Boy Names</span></div>
+        <i class="fa-solid fa-chevron-right arrow-icon"></i>
       </a>
     </div>
   </section>

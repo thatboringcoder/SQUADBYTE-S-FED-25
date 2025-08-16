@@ -8,7 +8,7 @@ This repository contains a prototype homepage for the FirstCry website, built as
 
 * **Elevated Moms &amp; Maternity** – The maternity category has been moved higher on the page and presented with a compelling banner and call‑to‑action.  The new design brings expectant mothers’ products into view faster while maintaining a clean aesthetic.
 
-* **Featured Parenting Blogs** – To better integrate the FirstCry Parenting platform, the prototype now showcases a **Featured Blogs** section with curated articles. Each card links to informative articles on topics such as raising Generation Beta kids, healthy snack ideas and baby name inspiration. This replacement of the earlier vlog section makes the page lighter and more relevant to readers.
+* **Featured Parenting Blogs** – The homepage now includes a compact blogs preview with friendly icons instead of large thumbnails. Each preview card links to a dedicated `blogs.html` page where the full article card with images and summaries is displayed. This change reduces visual clutter on the landing page while still encouraging exploration of parenting resources.
 
 * **Prime Delivery Call‑out** – A promotional block highlights **Prime Delivery**, an upgraded shipping option that offers faster and more reliable delivery on select items. Clear messaging helps customers understand the benefit and increases conversion.
 

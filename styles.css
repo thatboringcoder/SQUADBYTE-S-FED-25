@@ -1,9 +1,10 @@
 /* Reset default margins and set base typography */
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  /* Use Poppins font for a friendly, modern feel */
+  font-family: 'Poppins', sans-serif;
   color: #333;
-  background-color: #fafafa;
+  background-color: #fff;
 }
 
 /* Sticky navigation bar with brand colour */
@@ -139,47 +140,98 @@ body {
   font-size: 1.1rem;
 }
 
-/* Blogs grid */
-.blogs-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  max-width: 1000px;
+/* Blog preview cards on the home page */
+.blogs-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 700px;
   margin: 0 auto;
 }
 
-.blog-card {
+.blog-preview-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #f7f7f7;
-  padding: 1rem;
-  border-radius: 4px;
-  text-align: left;
-  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
   color: #333;
+  text-decoration: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.blog-card:hover {
+.blog-preview-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.blog-card img {
+/* Icon and label within each preview card */
+.blog-preview-card .icon-label {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.blog-preview-card .icon-label i {
+  margin-right: 0.75rem;
+  font-size: 1.5rem;
+  color: #e85d04;
+}
+
+.blog-preview-card .arrow-icon {
+  font-size: 1.25rem;
+  color: #e85d04;
+}
+
+/* Detailed blogs list on the blogs page */
+.blogs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-article-card {
+  background-color: #f7f7f7;
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.blog-article-card img {
   width: 100%;
-  height: 170px;
+  height: 200px;
   object-fit: cover;
   border-radius: 4px;
+  margin-bottom: 1rem;
 }
 
-.blog-card h3 {
+.blog-article-card h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.blog-article-card p {
   margin-top: 0.75rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
-.blog-card p {
+.blog-article-card a {
+  display: inline-block;
   margin-top: 0.5rem;
-  font-size: 0.95rem;
-  line-height: 1.4;
+  color: #e85d04;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blog-article-card a:hover {
+  text-decoration: underline;
 }
 
 /* Early delivery section */
