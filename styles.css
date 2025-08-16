@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #ff6f61;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+section {
+  padding: 1rem;
+}
+
+/* Early delivery banner */
+.banner {
+  background: #fff8e1;
+  border: 2px dashed #ff6f61;
+  color: #b24500;
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+#moms-maternity {
+  background: #f7f7f7;
+}
+
+#moms-maternity .maternity-content {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+#brands .brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  list-style: none;
+  padding: 0;
+}
+
+#parenting {
+  background: #eef5ff;
+}
+
+#parenting .vlog-list {
+  display: flex;
+  flex-direction: column;
+}
+
+#parenting .vlog {
+  margin-bottom: 1rem;
+}
