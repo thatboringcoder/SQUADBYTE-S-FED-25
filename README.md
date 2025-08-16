@@ -1,6 +1,6 @@
 # SQUADBYTE‑S‑FED‑25
 
-This repository contains a prototype homepage for the FirstCry website, built as part of the **InnovateX hackathon**.  The goal of this project is to illustrate how subtle UI changes can improve usability and encourage sales on FirstCry.com.
+This repository contains a prototype homepage for the FirstCry website, built as part of the **InnovateX Hackathon 2025**.  The goal of this project is to illustrate how subtle UI changes can improve usability and encourage sales on FirstCry.com.
 
 ## Implemented UI Improvements
 
