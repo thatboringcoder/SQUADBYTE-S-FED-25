@@ -1,21 +1,13 @@
 # SQUADBYTE-S-FED-25
-Hackathon Project for 2025
+Hackathon Project for 2025.
 
 ## UI Improvement Recommendations for FirstCry
-To enhance usability and drive sales on the FirstCry website, consider the following updates:
 
-- **Increase Brand Visibility**: The 'Brands' section appears undersized. Increasing the font size and prominence of brand names could boost visibility and encourage purchases of premium clothing items.
-- **Elevate Moms and Maternity**: The 'Moms and Maternity' section sits too far down the page. Relocating it nearer the top with customizable options can increase visibility, engagement, and personalization.
-- **Highlight Parenting Vlogs**: Revise the 'FirstCry Parenting' section on the homepage to prominently feature top vlogs, thereby enhancing the overall user purchase experience.
-- **Advertise Early Delivery**: Introduce and promote an early delivery option for selected items to improve customer satisfaction and drive additional sales.
+These suggestions aim to streamline the shopping experience and highlight key offerings:
 
-These recommendations aim to improve the overall user experience and better showcase key offerings.
+1. **Increase Brand Visibility** – The 'Brands' section is undersized. Enlarging and emphasizing brand names can draw more attention and encourage premium purchases.
+2. **Elevate Moms & Maternity** – This section currently sits far down the page. Moving it nearer the top with customizable options can improve engagement and personalization.
+3. **Highlight Parenting Vlogs** – Prominently featuring top 'FirstCry Parenting' vlogs guides shoppers toward curated content and supports better purchasing decisions.
+4. **Promote Early Delivery** – Advertising an early-delivery option for select items boosts customer satisfaction and may drive additional sales.
 
-## Prototype
-A lightweight `index.html` file demonstrates the proposed UI improvements:
-- Early delivery banner placed near the top of the page.
-- Moms & Maternity section moved upward with a category selector for personalized tips.
-- Enlarged brand names in a prominent section to draw attention to premium labels.
-- FirstCry Parenting area featuring highlighted vlogs.
-
-Open `index.html` in any browser to explore the concept.
+These recommendations aim to improve the overall user experience while keeping the interface focused and uncluttered.
