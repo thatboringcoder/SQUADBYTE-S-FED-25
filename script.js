@@ -1,14 +1,15 @@
+// Enable smooth scrolling for internal navigation links
 document.addEventListener('DOMContentLoaded', () => {
-  const select = document.getElementById('maternity-category');
-  const content = document.querySelector('.maternity-content');
-  const messages = {
-    clothing: 'Explore comfortable maternity wear tailored for every stage of pregnancy.',
-    nutrition: 'Find essential nutrition products to keep you and your baby healthy.',
-    care: 'Discover personal care items designed for expecting and new moms.'
-  };
-
-  select.addEventListener('change', () => {
-    const value = select.value;
-    content.textContent = messages[value];
+  const links = document.querySelectorAll('.nav-links a');
+  links.forEach((link) => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      const targetId = link.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        const offsetTop = targetElement.offsetTop;
+        window.scrollTo({ top: offsetTop - 60, behavior: 'smooth' });
+      }
+    });
   });
 });
