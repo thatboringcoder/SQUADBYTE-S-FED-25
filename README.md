@@ -1,6 +1,6 @@
 # SQUADBYTE‑S‑FED‑25
 
-This repository contains a prototype homepage for the FirstCry website, built as part of the **InnovateX Hackathon 2025**.  The goal of this project is to illustrate how subtle UI changes can improve usability and encourage sales on FirstCry.com.
+This repository contains a prototype homepage for the FirstCry website, built as part of the **InnovateX hackathon**.  The goal of this project is to illustrate how subtle UI changes and closer adherence to the official FirstCry look and feel can improve usability and encourage sales on FirstCry.com.
 
 ## Implemented UI Improvements
 
@@ -8,9 +8,9 @@ This repository contains a prototype homepage for the FirstCry website, built as
 
 * **Elevated Moms &amp; Maternity** – The maternity category has been moved higher on the page and presented with a compelling banner and call‑to‑action.  The new design brings expectant mothers’ products into view faster while maintaining a clean aesthetic.
 
-* **Featured Parenting Blogs** – Instead of burying the FirstCry Parenting content, the prototype features a **Top Blogs** section with embedded videos.  Surfacing engaging parenting content encourages learning and deepens user engagement.
+* **Featured Parenting Blogs** – To better integrate the FirstCry Parenting platform, the prototype now showcases a **Featured Blogs** section with curated articles. Each card links to informative articles on topics such as raising Generation Beta kids, healthy snack ideas and baby name inspiration. This replacement of the earlier vlog section makes the page lighter and more relevant to readers.
 
-* **Priority Delivery Call‑out** – To improve conversion and customer satisfaction, a promotional block advertises an **priority delivery option** on selected products.  By explicitly calling out faster shipping, customers know they can get essentials in a hurry.
+* **Prime Delivery Call‑out** – A promotional block highlights **Prime Delivery**, an upgraded shipping option that offers faster and more reliable delivery on select items. Clear messaging helps customers understand the benefit and increases conversion.
 
 ## Running the Prototype
 
